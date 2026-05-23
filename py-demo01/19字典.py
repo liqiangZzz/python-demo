@@ -35,12 +35,14 @@ new_dict = dict.fromkeys('name',
 
 
 # 字典遍历
-# items把所有的向放到一个列表中
+# 遍历键值对
 for k, v in dict2.items():
     print(f'key={k}, value={v}')
 
+# 遍历所有键
 for k in dict2.keys():
     print(f'{k}')
 
+# 遍历所有值
 for v in dict2.values():
     print(f'{v}')
